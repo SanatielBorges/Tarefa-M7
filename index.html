@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Validação de Formulário</title>
-  <script>
-    function validarFormulario() {
-      var campoA = parseInt(document.getElementById('campoA').value);
-      var campoB = parseInt(document.getElementById('campoB').value);
-      var mensagem = document.getElementById('mensagem');
-
-      if (campoB > campoA) {
-        mensagem.innerHTML = 'Formulário válido! Número B é maior que o número A.';
-        mensagem.style.color = 'green';
-      } else {
-        mensagem.innerHTML = 'Formulário inválido! Número B deve ser maior que o número A.';
-        mensagem.style.color = 'red';
-      }
-    }
-  </script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <form>
@@ -30,5 +18,7 @@
   </form>
 
   <p id="mensagem"></p>
+
+  <script src="script.js"></script>
 </body>
 </html>
