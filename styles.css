@@ -1,13 +1,52 @@
+body {
+  display: flex;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: antiquewhite;
+}
+
+
+.area-cetral {
+  margin: auto;
+  width: 350px;
+  padding: 10px;
+  margin-top: 50px;
+  border: 1px solid #333;
+  text-align: center;
+  height: 310px;
+}
+
+.area-cetral h1 {
+  text-transform: uppercase;
+  color: #a90066;
+}
+
+form #campoA,
+form #campoB {
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #a90066;
+}
+
+button {
+  margin-left: -215px;
+  margin-bottom: 30px;
+}
+
 #mensagem {
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .green {
-    color: green;
-  }
-  
-  .red {
-    color: red;
-  }
-  
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
